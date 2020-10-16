@@ -1,0 +1,46 @@
+.menubutton {
+  height: 45px;
+  background-color: #414141
+}
+
+.mainmenu_spaces {
+
+}
+
+.mainpartpage {
+    color: #f3a83e;
+    font-family: sans-serif;
+    font-size: 100px;
+    padding-left: 700px;
+}
+
+.mainmenu_footer_spacer {
+	height: 160px;
+}
+
+.mainmenu_footer {
+    color: #f3a83e;
+    font-family: sans-serif;
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	font-size: 20px;
+    padding: 18px 18px 24px 262px;
+    background: #414141;
+}
+
+.mainmenu_links {
+    color: #f3a83e;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding-left: 40px;
+
+.navimenu {
+    position: relative;
+    cursor: pointer;
+    width: 177px;
+    height: 160px;
+    left: 0;
+    transition: left 5s cubic-bezier(0, 0, 1, 1);
+}
