@@ -45,33 +45,14 @@
     left: 0;
     transition: left 5s cubic-bezier(0, 0, 1, 1);
 }
-@keyframes bounce {
-    from {
-      top: 100px;
-      animation-timing-function: ease-out;
-    }
-    25% {
-      top: 50px;
-      animation-timing-function: ease-in;
-    }
-    50% {
-      top: 100px;
-      animation-timing-function: ease-out;
-    }
-    75% {
-      top: 75px;
-      animation-timing-function: ease-in;
-    }
-    to {
-      top: 100px;
-    }
-  }
 .category-wrap {
     padding: 15px;
     background: white;
     width: 200px;
     box-shadow: 2px 2px 8px rgba(0,0,0,.1);
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    transition-property: background-color;
+    transition-duration: 3s;
   }
   .category-wrap h3 {
     font-size: 16px;
