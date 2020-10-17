@@ -98,6 +98,11 @@
     color: white;
     transition-property: background-color;
     transition-duration: 3s;
-    animation: example-animation 1s linear infinite;
-    animation-delay: 50ms;
+    animation-name: SideMenuAnimation;
+    animation-duration: 4s;
   }
+
+  @keyframes SideMenuAnimation {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
